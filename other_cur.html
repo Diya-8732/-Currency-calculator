@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head><title>Other Calculator</title></head>
+    <body>
+        
+        <script type="text/javascript">
+            var num,aud,cad,eur,jpy,cny,inr,cur;
+            cur=prompt("Enter Type of Currency ");
+            num=parseFloat(prompt("Enter amount to be converted"));
+            if(cur=="usd")
+        {
+            inr=num*85.53;
+            aud=num*1.54;
+            cad=num*1.37;
+            eur=num*0.87;
+            jpy=num*145.05;
+            cny=num*7.19;
+
+          document.write("USD in INR = "+ inr +"<br>");
+          document.write("USD in AUD = "+ aud +"<br>");
+          document.write("USD in CAD = "+ cad +"<br>");
+          document.write("USD in EUR = "+ eur +"<br>");
+          document.write("USD in JPY = "+ jpy +"<br>");
+          document.write("USD in CNY = "+ cny +"<br>");
+        }
+        else if(cur=="aud")
+        {
+              
+            inr=num*55.69;
+            usd=num*0.65;
+            cad=num*0.89;
+            eur=num*0.57;
+            jpy=num*94.39;
+            cny=num*4.68;
+
+          document.write("AUD in INR = "+ inr +"<br>");
+          document.write("AUD in USD = "+ usd +"<br>");
+          document.write("AUD in CAD = "+ cad +"<br>");
+          document.write("AUD in EUR = "+ eur +"<br>");
+          document.write("AUD in JPY = "+ jpy +"<br>");
+          document.write("AUD in CNY = "+ cny +"<br>");
+        }
+        else if(cur=="cad")
+        {
+              
+            inr=num*55.69;
+            usd=num*0.65;
+            cad=num*0.89;
+            eur=num*0.57;
+            jpy=num*94.39;
+            cny=num*4.68;
+
+          document.write("CAD in INR = "+ inr +"<br>");
+          document.write("CAD in AUD = "+ aud +"<br>");
+          document.write("CAD in USD = "+ usd +"<br>");
+          document.write("CAD in EUR = "+ eur +"<br>");
+          document.write("CAD in JPY = "+ jpy +"<br>");
+          document.write("CAD in CNY = "+ cny +"<br>");
+        }
+        
+
+    
+
+        </script>
+    </body>
+</html>
